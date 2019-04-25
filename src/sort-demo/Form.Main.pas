@@ -71,9 +71,9 @@ var
 begin
   if TryStrToFloat( edtSwapTime.Text, swapTime ) then
   begin
-    BubbleManager.SwapTime := swapTime;
-    QuickManager.SwapTime := swapTime;
-    InsertionManager.SwapTime := swapTime;
+    BubbleManager.ChangeSwapTime(swapTime);
+    QuickManager.ChangeSwapTime(swapTime);
+    InsertionManager.ChangeSwapTime(swapTime);
   end;
 end;
 
