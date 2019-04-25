@@ -27,8 +27,6 @@ type
     procedure DrawItem(index: Integer);
     procedure DrawBoard();
     procedure DrawResults();
-    property Board: TBoard read FBoard; // write FBoard;
-    property PaintBox: TPaintBox read FPaintBox; // write FPaintBox;
   end;
 
 implementation
