@@ -50,7 +50,6 @@ object Form1: TForm1
     Caption = 'GroupBox1'
     Padding.Bottom = 1
     TabOrder = 0
-    ExplicitLeft = -2
     object Label1: TLabel
       AlignWithMargins = True
       Left = 400
@@ -72,7 +71,6 @@ object Form1: TForm1
       Margins.Top = 8
       Align = alLeft
       Caption = 'ms'
-      ExplicitLeft = 517
       ExplicitHeight = 13
     end
     object Button1: TButton
@@ -119,10 +117,9 @@ object Form1: TForm1
       Align = alLeft
       Alignment = taCenter
       TabOrder = 3
-      Text = '1.3'
+      Text = '1,3'
       OnChange = edtSwapTimeChange
-      ExplicitLeft = 391
-      ExplicitHeight = 21
+      ExplicitTop = 21
     end
   end
   object Timer1: TTimer
