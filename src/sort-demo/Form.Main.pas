@@ -15,7 +15,7 @@ uses
   System.TimeSpan,
   Vcl.Graphics, Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls,
   Vcl.StdCtrls,
-  Component.SortManager;
+  Manager.Sort;
 
 type
   TForm1 = class(TForm)

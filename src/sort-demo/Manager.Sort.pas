@@ -5,7 +5,7 @@
   * Autor:
   *   Bogdan Polak
   *  ----------------------------------------------------------------------- * }
-unit Component.SortManager;
+unit Manager.Sort;
 
 interface
 
